@@ -18,3 +18,14 @@ Content-Type: application/json
     "email": "lauragabriela.lemos@gmail.com",
     "password": "1234"
 }
+
+### Mensagem Push
+POST https://adonis-api-xeee.onrender.com/push HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer NTA.eEjSAIfFazw3qqo4jnpXxsuq4xU2RP5La78CzeLTliK-fcfyu1dpWPc1Ky0L
+
+{
+    "id": "14",
+    "title": "teste",
+    "body": "testado"
+}
